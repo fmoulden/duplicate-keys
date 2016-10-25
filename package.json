@@ -1,0 +1,27 @@
+{
+  "name": "duplicate-check",
+  "version": "1.0.0",
+  "description": "This module will check for duplicate key values in a file containing name value pairs.",
+  "main": "duplicatecheck.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fmoulden/duplicate-keys.git"
+  },
+  "keywords": [
+    "duplicates",
+    "properties"
+  ],
+  "author": "Fred Moulden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmoulden/duplicate-keys/issues"
+  },
+  "homepage": "https://github.com/fmoulden/duplicate-keys#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
