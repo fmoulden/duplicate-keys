@@ -1,6 +1,6 @@
 var should = require('chai').should();
 var dupTest = require('../duplicatecheck');
-var keyTest = dupTest.keytest;
+var keyTest = dupTest.keyFileTest;
 
 describe('Keytest', function() {
 

@@ -11,7 +11,16 @@ var dupCheck = function(pathToFile) {
     });
 };
 module.exports = {
-    keytest: function(pathToFile) {
+    keyFileTest: function(pathToFile) {
         dupCheck(pathToFile);
+    },
+    keyListTest: function (fileList) {
+        var files = Array.from(fileList);
+        files.forEach(function(filename, index, array) {
+            dupCheck(filename);
+        })
+    },
+    keyDirectoryTest: function (directory, extension) {
+
     }
 };
